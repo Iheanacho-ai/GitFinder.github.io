@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/11bebe4947.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>Git Finder</title>
+</head>
+<body>
+    <header>
+        <div class="git-header">
+            <i class="fab fa-github-alt icon"></i></i>
+            <input type="search" name="" class="search-bar" placeholder="Search user">
+            <button class="submit" type="submit"><i class="fas fa-search"></i></button>
+            
+        </div>
+    </header>
+    <main>
+        <div class="spinners text-center">
+            <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        
+        <div class="container container-color">
+            <div class="row">
+                <div class="col-md-3 profile-fixed">
+                    <div class="flex-img-username">
+                        <div class="img-profile-div">
+                            <img src="./images/portrait-3204843_640.jpg" class="img-profile">
+                        </div>
+                        <div class="username">
+                            <h4 class="Username-name">Victoria</h4>
+                            <p class="Username-username">Vierty_</p>
+                        </div>
+                    </div>
+                    <div class="user-details">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt asperiores aut nobis ratione provident dicta</p>
+                    </div>
+                    <div class="followers-stat">
+                        <p>
+                            <span><i class="fas fa-users"></i></span>
+                            <span class="followers"></span> followers | 
+                            <span class="following"></span> following 
+                        </p>
+                    </div>
+                    <div class="list-details">
+                        <ul>
+                            <li class="company">
+                                <i class="fas fa-building"></i><p class="company-name">bla</p>
+                            </li>
+                            <li class="location">
+                                <i class="fas fa-map-marker-alt"></i><p class="location-name">bla</p>
+                            </li>
+                            <li class="website">
+                                <i class="fas fa-link"></i><p class="website-name">bla</p>
+                            </li>
+                            <li class="twitter">
+                                <i class="fab fa-twitter"></i><p class="twitter-name">bla</p>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="col-md-9 margin-left repo-fix-div">
+                    <div class="repo">
+                        <div>
+                            <p class="repo-span">Repositories(
+                                <span class="repo-stat">234</span> )
+                            </p>
+                        </div>
+                    </div>
+                    <div class="repositories-stat">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="/main.js"></script>
+
+</body>
+</html>

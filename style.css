@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 51.99px;
+    background-color: #1b1b1b
+}
+.git-header{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.icon{
+    color: white;
+    line-height: 51.99px;
+    font-size: 34px;
+    margin-right: 16px;
+   
+}
+input{
+    width: 271px;
+    height: 28px;
+    margin-top: 10px;
+    background: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    outline: none;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, .7);
+    border: none;
+    background-color: #24292e;
+}
+.submit{
+    outline: none;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    color: #fff;
+    font-weight: 400;
+    background:none;
+    border:1px solid hsla(0, 0%, 100%, .7);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: -30px;
+
+}
+.git-finder-header{
+    text-align: center;
+    color: #fff;
+}
+main{
+   height: 100vh;
+   background-color: #101011;
+}
+main .spinner-border, main .spinner-grow{
+    margin: 0 auto;
+    color: #fff;
+}
+.spinners{
+    margin: 0 auto;
+    padding-top: 20%;
+    display: none;
+
+}
+.container-color{
+    display: none;
+}
+
+.repo-fix-div{
+    height: 85vh;
+    left: 50px;
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+.img-profile-div{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.img-profile{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.username{
+    margin-top: 10px;
+    text-align: left;
+}
+.username h4{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    overflow-wrap: break-word;
+}
+.username p{
+    color: #fff;
+    line-height: 24px;
+    font-size: 20px;
+   font-weight: 300;
+}
+.user-details{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777778;
+    font-family: 'Nunito', sans-serif;
+}
+.followers-stat p, .list-details ul li p{
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: no-wrap;
+    color: #777778;
+    font-family: 'Nunito', sans-serif;
+}
+.followers-stat p{
+    font-weight: 600;
+}
+.list-details ul li{
+    display: flex;
+    padding-top: 4px;
+}
+.list-details ul li p{
+    margin-left: 5px;
+}
+
+.list-details ul{
+    list-style-type: none;
+}
+.repo-span{
+    font-family: "Nunito" sans-serif;
+}
+.repo-fork, .repo-star, .repo-eye {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 700px){
+    body{
+        width: 100%;
+    }
+    .img-profile-div{
+        margin-top: 5px;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        margin-right: 16px;
+    }
+    .flex-img-username{
+        display: flex;
+        margin-bottom: 24px;
+    }
+    .repo-fix-div{
+        left: 5px;
+        height: 50vh;
+    }
+      
+    .username h4{
+        font-size: 26px;
+        line-height: 1.25;
+        overflow-wrap: break-word;
+    }
+    .list-details ul{
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        height: 50px;
+    }
+    .list-details ul li{
+        margin-left: 10px;
+    }
+    .repo{
+        margin-top: 10px;
+    }
+    .RepoDataDiv{
+        margin:30px 0px;
+        padding: 10px;
+        width: 80%;
+        margin: 0 auto;
+        height: 150px;
+        border: 1px solid black;
+    }
+    
+}
+.repo{
+    width: 100%;
+    margin-top: 30px;
+    text-align: left;
+    border-bottom: 1px solid #707070;
+}
+.repo div{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.RepoDataDiv{
+    color: #fff;
+    margin:30px 0px;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.048);
+}
+.repo-name{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 70px;
+}
+.StarDiv, .ForkDiv, .WatchDiv{
+    display: flex;
+    margin: 0 30px;
+}
+
+.starForkDiv{
+    display: flex;
+}
+@media screen and (max-width: 991px){
+    .repo{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+}
+
+.errorDiv{
+    line-height: 1.5;
+    padding-top: 20%;
+    text-align: center;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto; 
+    color: #fff; 
+    font-family: 'Nunito', sans-serif;
+}
